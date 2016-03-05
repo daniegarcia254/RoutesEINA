@@ -1,0 +1,5 @@
+<div>
+    <button class="button button-icon" ng-click="closeFavPopup()"><i class="icon ion-close-circled"></i></button>
+    <span><b>Favoritos</b></span>
+</div><br>
+<button ng-repeat="fav in favs track by $index" class="button button-positive ada-button" ng-click="showFavPos($index)">{{fav.name}}</button><br>

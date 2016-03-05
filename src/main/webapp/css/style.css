@@ -1,0 +1,329 @@
+/* Empty. Add your own CSS if you like */
+
+
+/* BARRA SUPERIOR */
+.bar.bar-positive {
+    border: none;
+}
+
+.bar.bar-positive h1{
+    display: none;
+}
+
+ion-header-bar .title{
+    left: 56px !important;
+    right: 56px !important;
+    font-family: Copperplate, 'Copperplate Gothic Light', fantasy;
+    font-size: 21px;
+    font-style: normal;
+    font-variant: small-caps;
+    font-weight: bold;
+    text-align: left !important;
+    padding-left: 3%;
+}
+.bar .title + .buttons{
+    margin-right: -10%;
+}
+.bar .button {
+    margin-right: -60%;
+}
+
+
+/* MENU LATERAL */
+ion-header-bar .bar.bar-positive {
+    border: none;
+}
+
+.mymenu {
+    color: #ffffff;
+    background: -webkit-linear-gradient(left, #387EF5 , #387EF5); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(right, #387EF5 , #387EF5); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(right, #387EF5 , #387EF5); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to right, #387EF5 , #387EF5);
+}
+
+/*Set the background to transparent for ion-item*/
+.mymenu .item {
+    padding: 0px 20px 0px 10px;
+    border-style: none;
+
+    background: -webkit-linear-gradient(left, #387EF5 , #387EF5); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(right, #387EF5 , #387EF5); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(right, #387EF5 , #387EF5); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to right, #387EF5 , #387EF5);
+}
+
+.mymenu .item span {
+    margin-left: 25px;
+    font-size: 0.9em;
+    letter-spacing: 1px;
+}
+
+.mymenu .item i {
+    margin-left: 15px;
+    padding: 0px;
+    font-size: 1.2em;
+}
+
+/*Ion-item adds item-complex and an inner div, .item-content*/
+/* this needs to be transparent too, but doesnt need borders*/
+.mymenu .item-complex .item-content, .mymenu .item-radio .item-content {
+    background-color: transparent;
+    padding: 20px 0px 20px 0px;
+}
+
+/*Just makes the type white*/
+.mymenu h2,
+.mymenu h3,
+.mymenu p,
+.mymenu a {
+    color: #ffffff;
+}
+
+
+/* MENU LATERAL ---  COMMON STYLE  */
+ion-list input[type="text"]{
+    padding-left: 5%;
+}
+
+ion-list .button.button-stable{
+    min-height: 40px;
+    border-radius: 10px;
+    border: 2px solid black;
+    font-size: 15px;
+}
+
+/* MENU LATERAL ---  RUTA ORIGEN - DESTINO  */
+#ruta_titulo{
+    color: #ffffff;
+    font-size: 20px;
+    text-align: center;
+    border-top: 2px solid #ffffff;
+    padding-top: 5%;
+    margin-bottom: 2%;
+}
+
+#ruta_titulo .button{
+    vertical-align: middle;
+    color: white;
+}
+
+#form_rutas .button.button-block{
+    margin-bottom: 2px;
+}
+
+#ruta_origen{
+    margin-bottom: 10px;
+    margin-top: 0px;
+}
+
+#ruta_destino{
+    margin-top: 15px;
+}
+
+#ruta_origen label, #ruta_destino label{
+     float: left;
+     color: #ffffff;
+     font-size: 15px;
+}
+#ruta_origen input[type="text"], #ruta_destino input[type="text"]{
+    display: inline;
+    /*height: 25px;*/
+    width: 95%;
+    margin-left: 5%;
+}
+
+#ruta_origen label{
+    margin-right: 15px;
+}
+
+#ruta_destino label{
+    margin-right: 10px;
+}
+
+/* MENU LATERAL ---  RUTA MAS CORTA CHECKBOX  */
+#ruta_mas_corta{
+    margin-top: 15px;
+    margin-left: 15%;
+    color: #ffffff;
+}
+#ruta_mas_corta input[type="checkbox"]{
+    vertical-align: middle;
+}
+#ruta_mas_corta label{
+    margin-left: 2%;
+}
+
+/* MENU LATERAL ---  FILTRO DE BÚSQUEDA  */
+#filtro_titulo{
+    color: #ffffff;
+    font-size: 20px;
+    text-align: center;
+    margin-top: 8%;
+    border-top: 2px solid #fff;
+    padding-top: 8%;
+    margin-bottom: 5%;
+}
+
+#texto_busqueda{
+    margin-bottom: 8%;
+}
+#texto_busqueda input{
+    width: 95%;
+    margin-left: 5%;
+}
+
+#edificio_input_label{
+    font-size: 17px;
+    font-weight: bold;
+    color: white;
+}
+
+.item-select select{
+    padding: 8px 38px 16px 16px;
+    direction: ltr;
+}
+
+#lista_filtros{
+    margin-top: 15px;
+}
+
+.filtro{
+    margin-top: 2px;
+    margin-left: 15%;
+    color: #ffffff;
+}
+.filtro input[type="checkbox"]{
+    vertical-align: middle;
+}
+.filtro label{
+    margin-left: 2%;
+}
+
+
+/* Splash */
+#splash-wrapper {
+    width: 100%;
+    margin: 0 auto;
+    padding-top: 60px;
+    padding-bottom: 30px;
+}
+
+#splash-div {
+    display: table;
+    margin: 0 auto;
+    text-align: center;
+}
+
+#loading-div {
+    margin-top: 50px;
+}
+
+
+/* Pagina Inicio */
+.logo-wrapper {
+    margin: 0px;
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.map {
+    margin: 0 auto;
+    width: 100%;
+    height: 100% !important;
+}
+
+
+
+/*    RESPONSIVE STYLE*/
+@media screen and (max-width: 600px) {
+    .bar .title {
+        display: none;
+    }
+
+    .bar.bar-positive h1{
+        display: block;
+    }
+
+    .bar .button {
+        margin-right: 0%;
+        padding-right: 10%;
+    }
+
+    .bar .title + .buttons{
+        margin-right: 0px;
+    }
+}
+
+/*///////////////////////////*/
+
+/* Items */
+/* line 13, ../scss/modules/_fancy-select.scss */
+.fancy-select-items {
+    position: fixed;
+    left: 0;
+    width: 100%;
+    height: 100%; }
+/* line 19, ../scss/modules/_fancy-select.scss */
+.fancy-select-items .item {
+    overflow: hidden;
+    /* Clearfix */ }
+
+/* line 24, ../scss/modules/_fancy-select.scss */
+.fancy-select-items label p {
+    height: 32px;
+    line-height: 32px; }
+
+/* line 29, ../scss/modules/_fancy-select.scss */
+.fancy-select-icon {
+    float: left;
+    margin-right: 10px;
+    width: 30px;
+    text-align: center; }
+
+.my-modal {
+    margin: 10% 25% 0 10%;
+    width: 80%;
+    background-color: transparent;
+}
+
+.modal-backdrop.active {
+    background-color: rgba(0,0,0,0.5);
+}
+
+@media(min-width: 990px){
+
+    .my-modal {
+        margin: 0 25%;
+        width: 50%;
+        background-color: transparent;
+    }
+}
+
+/*  POP-UP  CAFETERIAS*/
+.popup-body{
+    overflow: hidden;
+    text-align: center;
+}
+.popup-body .button-positive{
+     margin: 10px;
+     width: 150px;
+ }
+.popup-body .ada-button{
+    margin-top: 20px;
+}
+.popup-body .button-icon{
+    position: absolute;
+    right: 0px;
+    top: -2px;
+}
+.popup-body span{
+    position: absolute;
+    left: 25px;
+}
+
+/* POP-UP WARNING CAMPOS BUSQUEDA*/
+.popup .popup-head h3{
+    font-weight: bold;
+}

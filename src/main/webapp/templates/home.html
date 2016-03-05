@@ -1,0 +1,26 @@
+<ion-view title="Routes EINA">
+
+    <ion-nav-buttons side="left">
+        <button menu-toggle="left" class="button button-icon icon ion-search"></button>
+    </ion-nav-buttons>
+    <ion-nav-buttons id="right_buttons" side="right">
+        <button class="button button-icon icon ion-model-s" ng-click="showCarPos()"></button>
+        <button class="button button-icon icon ion-ios-star" ng-click="showPopupFavoritos()"></button>
+        <button class="button button-icon icon ion-coffee" ng-click="showPopupCafeterias()"></button>
+        <button class="button button-icon icon ion-ios-location" ng-click="locateUser()"></button>
+    </ion-nav-buttons>
+
+    <ion-content scroll="false">
+        <ion-header-bar align-title="center" class="bar-light" style="height: inherit;">
+            <fancy-select style="width: 100%; margin: 0 30%;"
+                          allow-empty='false'
+                          value="val.single"
+                          text="pisos_texto"
+                          items="pisos"
+                          callback="placeFloor(piso)">
+            </fancy-select>
+        </ion-header-bar>
+        <div id="map-rioebro" class="map" data-tap-disabled="true"></div>
+    </ion-content>
+
+</ion-view>
