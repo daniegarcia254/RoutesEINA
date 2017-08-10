@@ -6,7 +6,7 @@ angular.module('starter')
 
     .controller('AppCtrl', function ($scope, $timeout, $state, geoService, sharedProperties) {
 
-        if (sharedProperties.getSugerencias().length == 0)
+        if (sharedProperties.getSugerencias().length === 0)
             geoService.sugerenciasEstancias();
 
         // Timeout para ir a home

@@ -38,7 +38,7 @@ angular.module('starter')
             console.log("Edificio: ", $scope.edificio.id);
             console.log("Piso: ", geoService.getFloor());
             console.log("Estancia: ", $scope.estancia.tipo);
-            if ($scope.texto == null || $scope.texto==""){
+            if ($scope.texto === null || $scope.texto==""){
                 $scope.showSearchAlert();
             } else {
                 console.log("Realizar busquedaLibre");

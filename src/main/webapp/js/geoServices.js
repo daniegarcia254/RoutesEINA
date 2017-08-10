@@ -356,7 +356,7 @@ angular.module('starter')
                 inputType: 'text',
                 inputPlaceholder: 'Nombre favorito'
             }).then(function(res){
-                if(res == undefined) return;
+                if(res === undefined) return;
                 console.log("Fav name: ",res);
                 favourites.push({
                     name: res,

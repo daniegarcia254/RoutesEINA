@@ -31,9 +31,9 @@ angular.module('starter')
             pisoRuta = sharedProperties.getRutaPiso();
             rutas = sharedProperties.getRuta();
 
-            if (pisoRuta[0] == $rootScope.piso){
+            if (pisoRuta[0] === $rootScope.piso){
                 geoService.pintarRutaContinuacion(rutas[0]);
-            } else if (pisoRuta[1] == $rootScope.piso){
+            } else if (pisoRuta[1] === $rootScope.piso){
                 geoService.pintarRutaContinuacion(rutas[1]);
             } else {
                 geoService.clearRoute();
